@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+.header {
+    /*Стиль для класса header*/
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    color: white;
+    background-color: pink;
+}
+.name{
+text-transform: uppercase;
+}
+
+.main-menu{
+font-size: 20px;
+font-weight: bold;
+padding: 20px 0;
+}
+
+.main-menu a{ /*стиль применится для всех а, входящих в элемент с классом main-menu*/
+color: white;
+text-decoration: none
+}
+
+.main-menu a: hover{
+color: lavender;
+transition: 0.5s; /*длительность анимации*/
+}
+
+.btn{
+    text-decoration: none;
+    color: seashell;
+    font-weight: bold;
+    border: 2px solid coral(59, 59, 149);
+    
+}
